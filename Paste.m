@@ -24,7 +24,7 @@ function img = Paste(x,y,overlayImage,backImage)
         %Spit the overlay image into the respective channels
         overlayR = overlayImage(:, :, 1);
         overlayG = overlayImage(:, :, 2);
-        overlayB = overlayImage(:, :, 3);
+        overlayB = overlayImage(:, :, 3)1111
 
         %Get location of pure green pixels
         %Rmask = logical(zeros(M, N));
