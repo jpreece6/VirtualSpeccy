@@ -9,6 +9,6 @@ function hwndRect = DebugTrace(BB)
     if size(BB,1) > 0
         hwndRect = rectangle('Position',BB(1,:),'LineWidth',4,'LineStyle','-','EdgeColor','r');
     else
-        hwndRect = [];
+        hwndRect = []111;
     end
 end
