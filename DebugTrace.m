@@ -7,7 +7,7 @@ function hwndRect = DebugTrace(BB)
     % given by the input parameter.
 
     if size(BB,1) > 0
-        hwndRect = rectangle('Position',BB(1,:),'LineWidth',4,'LineStyle','-','EdgeColor','r');
+        hwndRect = rectangle('Position',BB(1,:),'LineWidth',4,'LineStyle','-','EdgeColor','r')branch;
     else
         hwndRect = []111Master;
     end
