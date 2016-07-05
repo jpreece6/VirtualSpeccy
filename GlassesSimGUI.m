@@ -255,6 +255,7 @@ function ProcessFrame(obj, eventData, hObject, handles)
         drawnow;
     end
 
+
 % --- Saves a frame to the disk
 function saveFrame(frame, path) 
 % frame      frame to save to disk
